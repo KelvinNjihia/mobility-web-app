@@ -1,18 +1,22 @@
-# ExamVw
+# Mobility Web App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+I created this project with Angular. The reason why I chose Angular is because of mainly my familiarity with it. In addition, angular works well with leaflet js which is a great JavaScript library for mobile-friendly interactive maps.
 
-## Development server
+## Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
+## On Remote Server
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Now you can deploy dist contents on the server.
+
+## Locally
+
+To run the project locally:
+first - navigate to root folder, pen terminal and run `npm install`.
+Secondly - run `ng serve`
+
+Yay! thats all 🚀!
 
 ## Running unit tests
 
@@ -24,4 +28,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+I will be available for any and all questions and clarifications you may need.
+
+# Stack Used 
+
+Angular 9, Leaflet Js - ngx-leaflet, Angular Material, OpenStreetMap, OpenRailwayMap
