@@ -9,9 +9,10 @@ import { Map, point, tileLayer, marker, Marker, polyline } from 'leaflet';
 import { antPath } from 'leaflet-ant-path';
 import { DataService } from './services/data.service';
 import { HTMLMarkerComponent } from './html-marker.component';
-import './../assets/icons/marker-icon-2x.png';
-import './../assets/icons/marker-icon.png';
-import './../assets/icons/marker-shadow.png';
+declare var require: any;
+require('./../assets/icons/marker-icon-2x.png');
+require('./../assets/icons/marker-icon.png');
+require('./../assets/icons/marker-shadow.png');
 
 interface MarkerMetaData {
   name: string;
