@@ -1,4 +1,4 @@
 <div class="map" leaflet [leafletOptions]="options" [leafletLayersControl]="layersControl" (leafletMapReady)="onMapReady($event)"></div>
 <button mat-raised-button (click)="simulate()">Simulate Buses</button> &nbsp;
-<button mat-raised-button (click)="stopSimulate()">Stop Simulatation</button>
+<button mat-raised-button (click)="stopSimulate()">Stop Simulatation</button><span>{{title}}</span>
 <router-outlet></router-outlet>

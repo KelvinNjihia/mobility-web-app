@@ -6,6 +6,8 @@ I created this project with Angular. The reason why I chose Angular is because o
 
 
 ## On Remote Server
+Navigate to the root folder, open terminal and run `npm install`.
+Once npm installation is done,
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 Now you can deploy dist contents on the server.
@@ -13,7 +15,7 @@ Now you can deploy dist contents on the server.
 ## Locally
 
 To run the project locally:
-first - navigate to root folder, pen terminal and run `npm install`.
+first - navigate to root folder, open terminal and run `npm install`.
 Secondly - run `ng serve`
 
 Yay! thats all 🚀!

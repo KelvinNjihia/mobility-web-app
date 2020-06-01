@@ -14,6 +14,7 @@ export class Marker {
   providedIn: 'root'
 })
 export class DataService {
+  // Initiaize imported stops and schedule data
   markers: Marker[] = (data as any).default;
 
   getMarkers() {

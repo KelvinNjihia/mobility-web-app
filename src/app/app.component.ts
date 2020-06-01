@@ -1,5 +1,11 @@
-import { Component, OnInit, ComponentRef, ComponentFactoryResolver, Injector,} from '@angular/core';
-import {Map, point, tileLayer, marker, Marker, polyline } from 'leaflet';
+import {
+  Component,
+  OnInit,
+  ComponentRef,
+  ComponentFactoryResolver,
+  Injector,
+} from '@angular/core';
+import { Map, point, tileLayer, marker, Marker, polyline } from 'leaflet';
 import { antPath } from 'leaflet-ant-path';
 import { DataService } from './services/data.service';
 import { HTMLMarkerComponent } from './html-marker.component';
@@ -49,8 +55,6 @@ export class AppComponent implements OnInit {
       opacity: 1,
     }
   );
-
-  // Sidebar Variables
 
   // define base ayers so we can reference them mutipe times
   streetMaps = tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
