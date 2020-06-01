@@ -10,9 +10,9 @@ import { antPath } from 'leaflet-ant-path';
 import { DataService } from './services/data.service';
 import { HTMLMarkerComponent } from './html-marker.component';
 declare var require: any;
-require('./../assets/icons/marker-icon-2x.png');
-require('./../assets/icons/marker-icon.png');
-require('./../assets/icons/marker-shadow.png');
+require('./../../node_modules/leaflet/dist/images/marker-icon-2x.png');
+require('./../../node_modules/leaflet/dist/images/marker-icon.png');
+require('./../../node_modules/leaflet/dist/images/marker-shadow.png');
 
 interface MarkerMetaData {
   name: string;
